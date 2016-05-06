@@ -121,6 +121,9 @@ if [[ -x `which rmtrash` ]]; then
 else
     alias diff=`rm -i`
 fi
+if [[ -x `which autojump` && -f '/usr/local/bin/jo' ]]; then
+    alias jos='/usr/local/bin/jo'
+fi
 
 # vimキーバインドにする
 bindkey -v
