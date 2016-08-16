@@ -154,3 +154,8 @@ bindkey '^r' peco-select-history
 # GNU Source-highlightを使用してlessでソースコードに色を付ける
 export LESS='-R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
+
+# GO言語のパス設定
+mkdir $HOME/go
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
