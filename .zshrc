@@ -156,6 +156,8 @@ export LESS='-R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 
 # GO言語のパス設定
-mkdir $HOME/go
 export GOPATH=$HOME/go
+if [[ ! -d $GOPATH ]]; then
+    mkdir $GOPATH
+fi
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
