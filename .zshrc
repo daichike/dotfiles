@@ -87,7 +87,7 @@ export LANG=ja_JP.UTF-8
 
 # My configuration
 
-# パスの追加
+# Command Line ToolsをPATHに追加
 export PATH=$PATH:/Applications/Xcode.app/Contents//Developer/usr/bin
 
 # aliases
@@ -161,3 +161,7 @@ if [[ ! -d $GOPATH ]]; then
     mkdir $GOPATH
 fi
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
+
+# direnvの設定
+export EDITOR=vim
+eval "$(direnv hook zsh)"
