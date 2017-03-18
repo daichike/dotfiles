@@ -165,3 +165,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 # direnvの設定
 export EDITOR=vim
 eval "$(direnv hook zsh)"
+
+# plenvの初期設定
+export PATH=$HOME/.plenv/shims:$PATH
+eval "$(plenv init -)
