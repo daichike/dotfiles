@@ -23,7 +23,3 @@ for FILE in $FILES; do
 
     ln -s $DOTFILES_DIR/$FILE $HOME/$FILE
 done
-
-# Finderで隠しファイル表示
-defaults write com.apple.finder AppleShowAllFiles TRUE
-killall Finder
