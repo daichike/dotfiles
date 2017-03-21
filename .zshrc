@@ -169,3 +169,8 @@ eval "$(direnv hook zsh)"
 # plenvの初期設定
 export PATH=$HOME/.plenv/shims:$PATH
 eval "$(plenv init -)"
+
+# cpanmの設定
+export PERL_CPANM_OPT="--local-lib=~/perl5"
+export PATH=$HOME/perl5/bin:$PATH
+export PERL5LIB=$HOME/perl5/lib/perl5:$PERL5LIB
