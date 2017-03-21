@@ -168,4 +168,4 @@ eval "$(direnv hook zsh)"
 
 # plenvの初期設定
 export PATH=$HOME/.plenv/shims:$PATH
-eval "$(plenv init -)
+eval "$(plenv init -)"
