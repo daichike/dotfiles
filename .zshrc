@@ -174,3 +174,16 @@ eval "$(plenv init -)"
 export PERL_CPANM_OPT="--local-lib=~/perl5"
 export PATH=$HOME/perl5/bin:$PATH
 export PERL5LIB=$HOME/perl5/lib/perl5:$PERL5LIB
+
+# PerlのREPL環境の設定
+export PERL_RL=Caroline
+
+# OpenSSLの設定
+# El Capitan以降だと依存パッケージがうまく入れられないため
+OPENSSL_PATH=/usr/local/opt/openssl
+if [ -d "$OPENSSL_PATH" ];then
+    export PATH=$OPENSSL_PATH/bin:$PATH
+    export LD_LIBRARY_PATH=$OPENSSL_PATH/lib:$LD_LIBRARY_PATH
+    export CPATH=$OPENSSL_PATH/include:$LD_LIBRARY_PATH
+fi
+
