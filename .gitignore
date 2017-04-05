@@ -1,9 +1,13 @@
 .DS_Store
 Desktop.ini
 Thumbs.db
+
+# IntelliJの設定ファイル
 .idea/
 *.iml
 
+# direnvの設定ファイル
+.envrc
 
 ### https://raw.github.com/github/gitignore/35c010258fc790ad769033e9ccfb1021178f2925/Global/jetbrains.gitignore
 
@@ -53,4 +57,3 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
