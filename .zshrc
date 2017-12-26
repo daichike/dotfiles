@@ -49,7 +49,7 @@ ZSH_THEME="kphoen"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew brew-cask github gitignore history sublime tmux)
+plugins=(git brew brew-cask github gitignore history sublime tmux docker docker-compose)
 
 # User configuration
 
