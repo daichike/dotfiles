@@ -6,6 +6,10 @@ Thumbs.db
 .idea/
 *.iml
 
+# CLionの設定ファイル
+CMakeLists.txt
+cmake-build-debug
+
 # direnvの設定ファイル
 .envrc
 
