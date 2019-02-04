@@ -7,3 +7,5 @@
         patterns = -BEGIN (RSA|DSA) PRIVATE KEY-
         allowed = AKIAIOSFODNN7EXAMPLE
         allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+[merge]
+    ff = false
