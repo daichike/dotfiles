@@ -9,3 +9,6 @@
         allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 [merge]
     ff = false
+[pull]
+    ff = only
+
