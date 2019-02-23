@@ -128,7 +128,7 @@ alias dp='docker ps'
 alias dr='docker rm -f'
 alias de='docker exec -it'
 alias di='docker images'
-alias drin='docker images | grep none | awk "{ print $3}" | xargs docker rmi -f'
+alias drmi='docker images | grep none | awk "{ print $3}" | xargs docker rmi -f'
 
 # vimキーバインドにする
 bindkey -v
