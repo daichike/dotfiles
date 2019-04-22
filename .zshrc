@@ -94,8 +94,10 @@ export PATH=$PATH:/Applications/Xcode.app/Contents//Developer/usr/bin
 alias gpo='git push origin'
 alias gpom='git push origin master'
 alias gpod='git push origin develop'
+alias gap='git add -p'
 alias gcm='git commit -m'
 alias less='less -R'
+alias curl='curl --dump-header -'
 alias db='cd ~/Dropbox'
 alias do='cd ~/Downloads'
 alias de='cd ~/Desktop'
@@ -129,6 +131,7 @@ alias dr='docker rm -f'
 alias de='docker exec -it'
 alias di='docker images'
 alias drmi='docker images | grep none | awk "{ print $3}" | xargs docker rmi -f'
+alias gore='gore -autoimport'
 
 # vimキーバインドにする
 bindkey -v
