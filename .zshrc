@@ -194,6 +194,8 @@ if [ -d "$OPENSSL_PATH" ];then
     export CPATH=$OPENSSL_PATH/include:$LD_LIBRARY_PATH
 fi
 
+export HISTSIZE=100000
+
 # マシン間で共有しない設定を読む
 if [[ -f $HOME/.zshrc_local ]]; then
     . $HOME/.zshrc_local
