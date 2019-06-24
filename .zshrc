@@ -130,7 +130,7 @@ alias dp='docker ps'
 alias dr='docker rm -f'
 alias de='docker exec -it'
 alias di='docker images'
-alias drmi='docker images | grep none | awk "{ print $3}" | xargs docker rmi -f'
+alias dirm='docker images | grep none | awk "{ print $3}" | xargs docker rmi -f'
 alias gore='gore -autoimport'
 
 # vimキーバインドにする
