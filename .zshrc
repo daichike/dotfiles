@@ -201,3 +201,5 @@ export HISTSIZE=100000
 if [[ -f $HOME/.zshrc_local ]]; then
     . $HOME/.zshrc_local
 fi
+
+eval "$(anyenv init - zsh)"
